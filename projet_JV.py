@@ -7,7 +7,7 @@ pygame.init()
 
 ecran=pygame.display.set_mode((1000,800))
 
-image=pygame.image.load("D:\Emma PAS TOUCHE\eletual\sprites\personnage\gnu.png").convert_alpha()
+image=pygame.image.load("D:\...\sprites\personnage\gnu.png").convert_alpha()    #choisir le chemin de l'emplacement de l'image pour le personnage en png
 
 alien=image.get_rect()
 alien.x=400
